@@ -21,8 +21,8 @@ app.use((req, res, next) => {
 });
 
 const allowedOrigins = [
-  "https://revenue.ansnetwork.vn",
-  "https://expense.ansnetwork.vn",
+  "https://expense-api.ohenemedia.com",
+  "https://expense.ohenemedia.com",
 ];
 
 app.use(
